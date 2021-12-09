@@ -16,7 +16,21 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
+     <widget class="QPushButton" name="add_btn">
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
      <widget class="QTableWidget" name="tableWidget"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="change_btn">
+      <property name="text">
+       <string>Редактировать</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
